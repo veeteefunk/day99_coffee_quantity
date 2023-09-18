@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Day X: Counting your coffee dosage</title>
+</head>
+<body>
+
+    <main>
+        <section class="partial">
+            <p class="text">How many espressos have you
+                had today?
+            </p>
+        
+            <div class="cups">
+                <div class="cup cup-small">80 mg</div>
+                <div class="cup cup-small">80 mg</div>
+                <div class="cup cup-small">80 mg</div>
+                <div class="cup cup-small">80 mg</div>
+                <div class="cup cup-small">80 mg</div>
+                <div class="cup cup-small">80 mg</div>
+            </div>
+        </section>
+
+        <section class="total">
+            <h2>Counting your coffee dosage</h2>
+            <h3>Max: 400 mg</h3>
+            <p class="warning"></p>
+
+            <div class="cup">
+                <div class="remained" id="remained">
+                    <span id="liters"></span>
+                    <small>Remained</small>
+                </div>
+
+                <div class="percentage" id="percentage"></div>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- 1 espresso = 40ml -->
+    
+    <script src="app1.js"></script>
+</body>
+</html>
